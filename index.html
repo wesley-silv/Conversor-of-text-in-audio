@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="scripts.js" defer></script>
+    <title>Conversor de Texto em Áudio</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Conversão de <span>Texto</span> em <span>Áudio</span></h1>
+      <p>Digite ou cole o texto para conversão</p>
+      <div id="input-content">
+        <textarea
+          id="input-text"
+          placeholder="Digite aqui o conteúdo"
+        ></textarea>
+        <div class="file-upload">
+          <label for="upload-file" id="file-label">Enviar arquivo</label>
+          <input type="file" id="upload-file" accept=".txt" />
+        </div>
+      </div>
+      <div class="actions">
+        <div class="action-box">
+          <p>Selecione a voz</p>
+          <select id="selection-voice"></select>
+        </div>
+        <div class="action-box">
+          <p>Toque para ouvir</p>
+          <button id="listen-btn">Ouvir</button>
+        </div>
+        <div class="action-box">
+          <p>Obtenha o arquivo do conteúdo</p>
+          <button id="download-text-btn">Baixar texto</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
