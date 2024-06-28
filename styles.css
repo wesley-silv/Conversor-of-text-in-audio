@@ -30,7 +30,7 @@ body {
 .container h1 {
   font-size: 2rem;
   font-weight: bold;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   text-shadow: 0 0 10px rgba(237, 146, 34, 0.7),
     0 0 20px rgba(237, 146, 34, 0.7);
 }
